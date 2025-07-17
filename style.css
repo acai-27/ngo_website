@@ -1,0 +1,38 @@
+/* Social media icons layout */
+.sm-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Add spacing between social icons */
+.sm-icons .nav-link {
+    padding-right: 1em;
+}
+
+/* Hover effects for navbar and footer icons */
+.y:hover {
+    color: #a79494 !important;
+}
+
+/* Hover effect for support button */
+.support:hover {
+    color: #aca1a1;
+    border-color: #ffffff;
+    box-shadow: 10px 10px 20px rgba(6, 6, 6, 0.5);
+}
+
+/* Donate button hover */
+.donate:hover {
+    color: #ffffff;
+}
+
+/* About section hover effect */
+.abt:hover {
+    color: #344848;
+}
+
+/* Card hover shadow */
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
